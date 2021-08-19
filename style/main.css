@@ -1,0 +1,45 @@
+/* A criação de variáveis ajuda em edições futuras
+São criadas a formatações padrões e se precisar
+alterar estes padrões não precisa procurar em cada
+lugar onde foi usado. É só trocar o valor da variável*/
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* limita o conteúde ao tamanho da borda a definir */
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: var(--preta);
+}
+
+/* CABEÇALHO*/
+
+header .container {
+  display: flex;
+  flex-direction: row; /* já é o padrão */
+  align-items: center; /* alinha de maneira vertical */
+  justify-content: space-between; /* criar um espaço entre os elementos filhos (h2 e nav) */
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: Arial Black, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
