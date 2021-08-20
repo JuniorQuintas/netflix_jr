@@ -11,7 +11,7 @@ lugar onde foi usado. É só trocar o valor da variável*/
   padding: 0;
   margin: 0;
   box-sizing: border-box; /* limita o conteúde ao tamanho da borda a definir */
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -51,7 +51,7 @@ header nav a:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url("../img/capa_mentalista.jpg");
 
-  height: 400px;
+  height: 600px;
   background-size: cover;
 
   display: flex;
@@ -92,4 +92,23 @@ header nav a:hover {
 
 .botao i {
   margin-right: 10px;
+}
+
+.container {
+  margin-left: 30px;
+}
+
+.filme_principal .container {
+  width: 70%;
+}
+
+/* CARROSSEL FILMES EM ALTA */
+.box_filmes_em_alta {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel_filmes_em_alta {
+  margin-top: 10px;
 }
